@@ -1,0 +1,25 @@
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.header__container {
+  background-color: transparent;
+  position: fixed;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  max-width: 1300px;
+  width: 100%;
+  background-color: transparent;
+  padding-top: 2rem;
+  z-index: 100;
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+  }
+}
+
+.header__buttons :first-child {
+  border-right: 1px solid #fff;
+}

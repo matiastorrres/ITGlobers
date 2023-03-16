@@ -1,0 +1,41 @@
+.Newsletter__container {
+  text-align: center;
+  margin-bottom: 8rem;
+  h5 {
+    color: rgb(128, 128, 128);
+  }
+  h3 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  p {
+    font-weight: 500;
+  }
+  form {
+    width: 750px;
+    margin: 0 auto;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  input {
+    width: 90%;
+    border: 1px solid #000;
+    border-right: none;
+    padding-left: 1rem;
+    height: inherit;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    width: 10%;
+    border: 1px solid #000;
+    border-left: none;
+    height: inherit;
+  }
+}
+.successMessage {
+  color: #4caf50;
+  font-size: 2rem;
+  text-align: center;
+}

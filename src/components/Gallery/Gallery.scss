@@ -1,0 +1,25 @@
+.gallery_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto;
+  h5 {
+    color: rgb(128, 128, 128);
+  }
+  h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+  }
+}
+.gallery {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery img {
+  height: 250px;
+  width: 250px;
+}

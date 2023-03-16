@@ -1,0 +1,21 @@
+.buttonSection__container {
+  height: inherit;
+  color: #fff;
+  width: 150px;
+  border-right: 1px solid rgb(255, 255, 200, 0.8);
+  img {
+    height: 40px;
+  }
+  &:hover {
+    color: #000;
+    transition: 0.5s ease-in color;
+    cursor: pointer;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.buttonSection__container:last-child {
+  border-right: none;
+}
